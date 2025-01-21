@@ -1,14 +1,19 @@
 package algorithm.linkedList;
 
 public class ListNode {
-    int val;
+    /// 单链表
+    /*int val;
     ListNode next;
     ListNode() {}
     ListNode(int val) {
         this.val = val;
-    }
-    ListNode(int val, ListNode next) {
+    }*/
+
+    /// 双链表
+    int val;
+    ListNode next, prev;
+    ListNode() {}
+    ListNode(int val) {
         this.val = val;
-        this.next = next;
     }
 }

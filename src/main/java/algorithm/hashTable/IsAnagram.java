@@ -7,6 +7,29 @@ import java.util.HashMap;
  */
 public class IsAnagram {
     /**
+     * 数组
+     * 时间复杂度：O(m+n)
+     * 空间复杂度：O(1)
+     * @param s
+     * @param t
+     * @return
+     */
+    /*public boolean isAnagram(String s, String t) {
+        int[] records = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            records[s.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < t.length(); i++) {
+            records[t.charAt(i) - 'a']--;
+        }
+        for (int record: records) {
+            if (record != 0) return false;
+        }
+        return true;
+    }*/
+
+    /**
+     * 映射
      * 时间复杂度：O(m+n)
      * 空间复杂度：O(1)
      * @param s
